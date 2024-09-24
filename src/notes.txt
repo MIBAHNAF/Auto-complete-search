@@ -1,0 +1,26 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+The purpose of this project is to develop a program for implementing autocomplete functionality.
+Autocomplete is a widely used feature in many applications, and it predicts and displays query suggestions to users as they type.
+In this assignment, I am tasked with creating an immutable data type called "Term," which represents autocomplete terms.
+Each term comprises a string query and a real-valued weight. The critical aspect of this data type is that it supports three different comparison orders:
+lexicographic order of the query, descending order by weight, and lexicographic order of the query but limited to the first 'r' characters.
+These comparisons are crucial for efficiently retrieving and sorting autocomplete suggestions.
+
+The primary objective is to ensure that when a user enters a prefix, I can quickly find and present a list of matching queries, sorted by their weights in descending order. This project is essential in applications like search engines, databases, and text input on mobile devices, where providing timely and relevant autocomplete suggestions greatly enhances the user experience.
+
+
+2. Did you receive help from anyone? List their names, status (classmate,
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+kyle Clapper             TA       Excercise and some ideas on the project.
+   ...                ...          ...
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I learned a lot from this assignment. I enjoyed doing it.
